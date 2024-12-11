@@ -19,7 +19,7 @@ public class BookTest {
         //given
         Book book = new Book("Title","Author");
         //then
-        assertEquals("Ttle", book.title(), "test book  title (whenCreateBookWithArgumentsAuthorAndTitle)");
+        assertEquals("Title", book.title(), "test book  title (whenCreateBookWithArgumentsAuthorAndTitle)");
         assertEquals("Author", book.author(), "test book author (whenCreateBookWithArgumentsAuthorAndTitle)");
         assertNull(book.publicationDate(), "test book publicationDate (whenCreateBookWithArgumentsAuthorAndTitle)");
         assertFalse(book.isAvailable(), "test book isAvailable (whenCreateBookWithArgumentsAuthorAndTitle)");

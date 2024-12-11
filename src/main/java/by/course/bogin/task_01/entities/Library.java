@@ -1,8 +1,6 @@
 package by.course.bogin.task_01.entities;
 
 import lombok.ToString;
-
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

@@ -53,7 +53,10 @@ public class LibraryService {
             System.out.println(book);
         }
 
-        System.out.println("\n" + "========================= \n");
+        System.out.println("""
+
+                =========================\s
+                """);
     }
 
     /**
@@ -64,7 +67,7 @@ public class LibraryService {
      * @return books  this author
      */
     public static List<Book> findBooksByAuthor(@NotNull String author) {
-        List<Book> books = new ArrayList<Book>();
+        List<Book> books = new ArrayList<>();
         for (Book book : Library.books) {
             if (book.author().equals(author)) {
                 books.add(book);

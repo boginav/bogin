@@ -53,7 +53,7 @@ public class Book {
      *  Return the availability of the book for issue.
      * */
     @NotNull
-    private boolean isAvailable = true;
+    private boolean isAvailable;
 
 public Book(String title, String author) {
     this.title = title;
